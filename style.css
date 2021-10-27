@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background: black;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+    width: 100%;
+}
+
+.container{
+    max-width: 1062px;
+    margin: auto;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.first-a{
+    border-bottom: 1px solid white;
+    margin-left: 0px;
+}
+
+.two-a{
+    margin-left: 0px;
+}
+
+.flex-wraper{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.webdev{
+    background-color: black;
+    background-image: url(images/bg-image.png);
+    padding-bottom: 90px;
+    padding-top: 230px;
+    text-align: center;
+    background-position: center;
+}
+
+.your-idea{
+    padding-top: 120px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-colum{
+    padding-top: 295px;
+    max-width: 500px;
+    padding-bottom: 290px;
+}
+
+.your-idea h2{
+    padding-bottom: 31px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.your-idea p{
+    padding-bottom: 35px;
+    max-width: 407px;
+    height: 80px;
+}
+
+.span-one{
+    font-weight: bold;
+}
+
+.webdev h1{
+    color: white;
+    padding-bottom: 41px;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 4.5px;
+}
+
+.webdev p{
+    color: white;
+    max-width: 504px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.bottom1{
+    display: inline-block;
+    background-color: #00AFDB;
+    padding: 18px 48px;
+    margin-top: 36px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom1:hover{
+    background-color: #009CC2;
+}
+
+.webdew-a{
+    margin-top: 183px;
+}
+
+.webdew-a a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.implement{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imp1{
+    width: 50%;
+}
+
+.imp2{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.imp2 h2{
+    padding-bottom: 31px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.imp2 p{
+    max-width: 407px;
+}
+
+.newsletter{
+    background-image: url(images/Frame\ 7.png);
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 220px;
+    margin-top: 140px;
+}
+
+.newsletter button{
+    background-image: url(images/check-icon.svg);
+    width: 67px;
+    height: 47px;
+    background-color: #00AFDB;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    border:none;
+}
+
+button:hover{
+    background-color: #009CC2;
+    cursor: pointer;
+}
+
+.newsletter input{
+    padding: 16px 24px 16px 24px;
+    vertical-align: middle;
+    border:none;
+    width: 340px;
+}
+
+.newsletter h2{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+footer{
+    background-color: black;
+    padding-top: 73px;
+    padding-bottom: 92px;
+}
+
+.footr{
+    color: #818181;
+}
+
+.flex-wraper2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cred{
+    padding-right: 20px;
+    border-right: 1px solid #4E4E4E;
+}
+
+.pri{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.our{
+    padding-left: 20px;
+    border-left: 1px solid #4E4E4E;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.download{
+    padding: 125px 0px 180px 0px;
+    text-align: center;
+}
+
+.download h1{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.dowload p{
+    padding-bottom: 32px;
+}
+
+.bottom2{
+    display: inline-block;
+    background-color: #00AFDB;
+    padding-left: 18px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 46px;
+}
+
+.bottom2:hover{
+    background-color: #009CC2;
+}
+
+.apple::after{
+    content: url(images/icon-apple.svg);
+    display: inline-block;
+    width: 59px;
+    height: 45px;
+    background-color: #009CC2;
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+.market::after{
+    content: url(images/icon-android.svg);
+    display: inline-block;
+    width: 59px;
+    height: 46px;
+    background-color: #009CC2;
+    line-height: 46px;
+    margin-left: 5px;
+}
+
+.download p{
+    margin: auto;
+    max-width: 480px;
+    margin-bottom: 30px;
+}
+
+.community{
+    background-color: #F5F6F7;
+    position: relative;
+    margin-bottom: 140px;
+    overflow: hidden;
+}
+
+.community-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 155px;
+    padding-bottom: 174px;
+    flex-wrap: wrap;
+}
+
+.our-community{
+    text-align: center;
+    max-width: 298px;
+
+}
+
+.slider{
+    width: 1250px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 188px;
+    left: 50%;
+    transform: translateX(-95px);
+}
+
+.comm-buttom button{
+    background: transparent;
+    border: none;
+}
+
+.span-two{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.our-community h2{
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+@media (max-width: 1085px){
+    .left-colum{
+        padding-left: 15px;
+    }
+
+    .our-community{
+        padding-left: 15px;
+    }
+
+    .imp1{
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 981px){
+    header nav a{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .imp1{
+        width: 100%;
+    }
+}
+
+@media (max-width: 801px){
+    .your-idea{
+        width: 100%;
+    }
+
+    .slider{
+        position: static;
+    }
+}
+
+@media (max-width: 645px){
+    header nav a{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .our-community{
+        width: 100%;
+    }
+
+    .community-flex{
+        padding-bottom: 10px;
+    }
+
+    .comm-buttom{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .newsletter input{
+        width: 70%;
+    }
+
+    .imp2{
+        width: 100%;
+    }
+
+    .apple{
+        margin-bottom: 10px;
+    }
+}
